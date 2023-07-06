@@ -4,7 +4,7 @@ import socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Connect the socket to the server's address and port
-server_address = ('localhost', 12345)
+server_address = ('10.50.225.43', 12345)
 client_socket.connect(server_address)
 
 try:
