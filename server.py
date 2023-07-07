@@ -4,7 +4,7 @@ import socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Bind the socket to a specific address and port
-server_address = ('localhost', 12345)
+server_address = ('10.50.225.43', 12345)
 server_socket.bind(server_address)
 
 # Listen for incoming connections
